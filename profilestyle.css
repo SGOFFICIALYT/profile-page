@@ -1,0 +1,75 @@
+.welcome{
+   
+    text-align: center;
+    color: rgb(1, 7, 4);
+    border: 5px solid;
+    height: 100vh;
+    margin: 5px;
+    align-content: center;
+    border-radius: 2em;
+    background-color: aqua;
+}
+.about{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(1, 7, 4);
+    border: 5px solid;
+    height: 100vh;
+    margin: 5px;
+    align-content: center;
+    border-radius: 2em;
+    background-color: aqua;
+
+
+}
+.navbtn{
+    border-radius: 1em;
+}
+.skills{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(1, 7, 4);
+    border: 5px solid;
+    height: 100vh;
+    margin: 5px;
+    align-content: center;
+    border-radius: 2em;
+    background-color: aqua;
+
+}
+
+.contact{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(1, 7, 4);
+    border: 5px solid ;
+    height: 100vh;
+    margin: 5px;
+    align-content: center;
+    border-radius: 2em;
+    background-color: aqua;
+
+}   
+.footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 5px;
+    align-content: center;
+
+}
+.social-icon {
+    width: 40px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+.topbtn {
+    position: sticky;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+}
