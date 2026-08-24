@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytle.css">
+    
+
+</head>
+<body>
+    <header>
+         <div class="mainpage"> 
+            <section class="welcome">
+        
+                
+                <h1>Welcome to my profile </h1>
+                <a><button onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">About me </button></a>
+                <a><button onclick="document.getElementById('skills').scrollIntoView({ behavior: 'smooth' })">skills</button></a>
+                <a><button onclick="document.getElementById('qualification').scrollIntoView({ behavior: 'smooth' })">qualification</button></a>
+                <a><button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">contact me</button></a>
+    
+            </section>
+         </div>
+    </header>
+    <main>
+        <div>
+            <section id="about">
+                <h1>About Me</h1>
+                <img src="1632981605295.png" alt="image" width="300">
+                <p>My name is abhi kumar</p>
+                <p>I am interested in technology and computers </p>
+                <p>I am gamer and youtuber</p>
+            </section>
+
+        </div>
+        
+        <div>
+            <section>
+                <h1> Skills </h1>
+                <P>i am learning HTML</P>
+                <p>i am a professional gamer</p>
+            </section>
+        </div>
+
+      <section>
+    <h1> qualification</h1>
+    <p>i am studied diploma engineering</p>
+    <p>i am trying to learn HTML present</p>
+    </section>
+    
+    <h1>Contact Me</h1>
+    <form>
+         
+        <label for="name">name</label>
+         <input type="text"><br>
+
+         <label for="email" >email</label>
+         <input type="email"><br>
+
+         <b> Choose your gender</b>
+         <input type="radio" id="male" name="gender" value="male">
+         <label for="male">male</label>
+         <input type="radio" id="female" name="gender" value="female">
+         <label for="female"> female</label><br>
+         
+         <b> select your intrest </b>
+         <input type="checkbox" id="coding" value="coding">
+         <label for="coding">coding</label>
+         <input type="checkbox" id="reading" value="reading">
+         <label for="reading">reading</label><br>
+
+<button>Submit</button>
+    </main>
+    
+    </form>
+   
+</body>
+</html>
