@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile page</title>
+    <style>
+        .welcome{
+   
+    text-align: center;
+    color: rgb(1, 7, 4);
+    border: 5px solid;
+    height: 100vh;
+    margin: 5px;
+    align-content: center;
+    border-radius: 2em;
+    background-color: aqua;
+}
+.about{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(1, 7, 4);
+    border: 5px solid;
+    height: 100vh;
+    margin: 5px;
+    align-content: center;
+    border-radius: 2em;
+    background-color: aqua;
+
+
+}
+.navbtn{
+    border-radius: 1em;
+}
+.skills{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(1, 7, 4);
+    border: 5px solid;
+    height: 100vh;
+    margin: 5px;
+    align-content: center;
+    border-radius: 2em;
+    background-color: aqua;
+
+}
+
+.contact{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(1, 7, 4);
+    border: 5px solid ;
+    height: 100vh;
+    margin: 5px;
+    align-content: center;
+    border-radius: 2em;
+    background-color: aqua;
+
+}   
+.footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 5px;
+    align-content: center;
+
+}
+.social-icon {
+    width: 40px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+.topbtn {
+    position: sticky;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+}
+
+    </style>
+</head>
+
+<header>
+    <div class="welcome">
+        <h1> Welcome To My Profile</h1>
+            <button class="navbtn" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">About Me</button>
+            <button class="navbtn" onclick="document.getElementById('Skills').scrollIntoView({behavior: 'smooth'});">Skills</button>
+            <button class="navbtn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">Contact</button>
+
+    </div>
+</header>
+<body>
+    <main> 
+        
+        <section id="about" class="about">
+            <h1>About Me</h1>
+
+             <p>
+                Hi! I'm Shiva Prasad, a passionate beginner in web development.
+                I'm currently learning HTML, CSS, and JavaScript and improving my
+                skills by creating simple and creative websites.
+            </p>
+
+            <p>
+                I enjoy learning new technologies, building projects, and exploring
+                different ideas in web development. My goal is to become a skilled
+                web developer and create useful and attractive websites.
+            </p>
+        </section>
+
+        <section id="Skills" class="skills">
+            <h2 class="skill"> Skills</h2>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+        </section>
+
+        <section id="contact" class="contact"> 
+            <h1> Contact</h1>
+            <form>
+                <label for="Name">Name :</label>
+                <Input type="text" id="name">
+                <br>
+                <label for="Email"> Email :</label>
+                <input type="email" id="Email">
+                <br>
+                <label for="text"> Gender :</label>
+                <input type="radio" id="Male" name="gender" value="Male">
+                <label for="male"> Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female"> Female </label>
+                <br>
+                <p>Thanks for visiting my profile i hope you know about me know </p>
+                <button>Submit</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Designed and Developed by Shiva Prasad</p>
+        <h3>Connect With Me</h3>
+       
+        <a href="https://www.instagram.com/shiva_the_gamer_43/" target="_blank" class="social-icon">
+        <img src="instagram.png" alt="instagram" width="40">
+        </a>
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="topbtn">Top</button>
+
+    </footer>
+</body>
+</html>
